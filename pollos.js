@@ -47,7 +47,7 @@ function __ShowSnow(settings)
                     left: "15px"
                 });
 
-        flake.append("<img src='" + snowsrc + "'>");
+        flake.append("<img src='http://static.betazeta.com/www.chw.net/up/2016/09/logo_chw.png" + snowsrc + "'>");
         flake.appendTo("body");
 
         flakes[i] = $("#" + id);
