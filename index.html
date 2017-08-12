@@ -2,9 +2,9 @@
 <html>
 <head>
 </head>
-<body>
+<body bgcolor="#E6E6FA">
 <h1>pruebas</h1>
+</body>
 <script type="text/javascript">function __ShowSnow(n){var o,t,e,a,i,d,r,s=n.SnowImage,m=n.Quantity,w=$(window).width()-10,f=$(window).height();for(o=[],t=[],e=[],a=[],i=[],d=[],flakes=[],r=0;r<m;++r){o[r]=0,t[r]=Math.random()*(w-50),e[r]=Math.random()*f,a[r]=20*Math.random(),i[r]=.02+Math.random()/10,d[r]=.7+Math.random();var h=$("<div />"),u="dot"+r;h.attr("id",u),h.css({position:"absolute",zIndex:n.ZIndexStart+r,top:"15px",left:"15px"}),h.append("<img src='"+s+"'>"),h.appendTo("body"),flakes[r]=$("#"+u)}var p;(p=function(){for(r=0;r<m;++r)e[r]+=d[r],e[r]>f-50&&(t[r]=Math.random()*(w-a[r]-30),e[r]=0,i[r]=.02+Math.random()/10,d[r]=.7+Math.random()),o[r]+=i[r],flakes[r].css("top",e[r]+"px"),flakes[r].css("left",t[r]+a[r]*Math.sin(o[r])+"px");snowtimer=setTimeout(p,10)})(),n.HideSnowTime>0&&setTimeout(function(){for(window.snowtimer&&clearTimeout(snowtimer),r=0;r<m;r++)flakes[r].hide()},1e3*n.HideSnowTime)}!function(n){n.fn.snow=function(o){return __ShowSnow(n.extend({SnowImage:void 0,Quantity:7,HideSnowTime:0,ZIndexStart:0},o)),this}}(jQuery);</script>
 <script type="text/javascript">$(function(){$(document).snow({SnowImage:"https://raw.githubusercontent.com/cristianhcd/chw/master/patita.png"})});</script>
-</body>
 </html>
