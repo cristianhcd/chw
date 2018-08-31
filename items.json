@@ -2,7 +2,7 @@
   "items": [{
     "id": 1,
     "img": "/product/product-1.jpg",
-    "name": "Apple",
+    "name": "Manzana",
     "price": "1.99",
     "stars": "&#9733;&#9733;&#9733;&#9733;&#9733;",
     "attribution": "visualhunt",
@@ -10,7 +10,7 @@
     "color": "green"
   }, {
     "id": 2,
-    "img": "/img/product2_640x426.jpg",
+    "img": "product/product-1.jpg",
     "name": "Orange",
     "attribution": "visualhunt",
     "price": "0.99",
