@@ -1,7 +1,7 @@
 {
   "items": [{
     "id": 1,
-    "img": "/product/product-1.jpg",
+    "img": "https://raw.githubusercontent.com/cristianhcd/chw/master/product/product-1.jpg",
     "name": "Manzana",
     "price": "1.99",
     "stars": "&#9733;&#9733;&#9733;&#9733;&#9733;",
@@ -10,7 +10,7 @@
     "color": "green"
   }, {
     "id": 2,
-    "img": "product/product-1.jpg",
+    "img": "https://raw.githubusercontent.com/cristianhcd/chw/master/product/product-2.jpg",
     "name": "Orange",
     "attribution": "visualhunt",
     "price": "0.99",
