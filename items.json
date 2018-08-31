@@ -1,7 +1,7 @@
 {
   "items": [{
     "id": 1,
-    "img": "/img/product1_640x426.jpg",
+    "img": "/product/product-1.jpg",
     "name": "Apple",
     "price": "1.99",
     "stars": "&#9733;&#9733;&#9733;&#9733;&#9733;",
